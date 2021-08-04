@@ -32,6 +32,8 @@ export default createGlobalStyle`
         border: none;
         background: none;
         cursor: pointer;
+
+        color: var(--color-icon-text);
     }
 
     a {

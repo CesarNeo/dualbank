@@ -35,13 +35,19 @@ export const CheckingAccount = styled.div`
     flex-direction: column;
     margin-left: 1.22rem;
 
+    line-height: 0.9rem;
+
     div {
         display: flex;
-
+        
         h1 {
             font-weight: 400;
             font-size: 1rem;
             margin-right: 0.82rem;
+        }
+
+        button {
+            position: relative;
         }
     }
 
@@ -58,6 +64,8 @@ export const Balance = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 1.22rem;
+    
+    line-height: 0.9rem;
 
     div {
         display: flex;
@@ -115,6 +123,7 @@ export const HeaderNotifications = styled.div`
     align-items: center;
     padding: 0 1.13rem;
 
+
     button {
         width: 20px;
         height: 20px;
@@ -133,3 +142,39 @@ export const Perfil = styled.div`
     border-radius: 50%;
 `;
 
+export const DropdownCheckingAccount = styled.div`
+    width: 276px;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
+    padding: 0.375rem 1rem;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 5px;
+
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0px 2px 20px rgba(44, 74, 125, 0.217548);
+`;
+
+export const Account = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+
+    & + div {
+        margin-top: 1.125rem;
+    }
+
+    h2 {
+        font-size: 0.875rem;
+        font-weight: 400;
+    }
+
+    div {
+        span {
+            font-size: 0.625rem !important;
+        }
+    }
+`;

@@ -1,7 +1,14 @@
 import { ReactElement } from "react";
 import { BiPurchaseTag, BiShow } from 'react-icons/bi';
+import { RiAddCircleLine } from 'react-icons/ri';
 
-import { Container, ButtonTopMenu, Wallet, ProfileTopMenu, WalletContent } from './styles';
+import {
+    Container,
+    ButtonTopMenu,
+    Wallet,
+    ProfileTopMenu,
+    WalletContent
+} from './styles';
 
 export function TopMenu(): ReactElement {
     return (
@@ -10,7 +17,7 @@ export function TopMenu(): ReactElement {
                 <BiPurchaseTag size={20} />
             </ButtonTopMenu>
             <ButtonTopMenu>
-                <BiPurchaseTag size={20} />
+                <RiAddCircleLine size={20} />
             </ButtonTopMenu>
             <Wallet>
                 <ProfileTopMenu>

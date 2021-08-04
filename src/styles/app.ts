@@ -33,7 +33,7 @@ export const ButtonBankBalance = styled.button`
     color: var(--purple-primary);
 
     &:hover {
-        background: linear-gradient(217deg, #622EE5, #A683FF);
+        background: linear-gradient(230deg, #622EE5, #A683FF);
         border-color: #fff;
         color: #fff;
     }
